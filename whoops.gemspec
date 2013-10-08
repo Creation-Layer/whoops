@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.asciidoc"]
   s.version = "0.5.5"
 
-  s.add_dependency('rails', '~>3')
+  s.add_dependency('rails', '>3')
   s.add_dependency('sass')
   s.add_dependency('haml')
   s.add_dependency('mongo')
