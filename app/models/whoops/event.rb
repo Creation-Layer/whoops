@@ -9,7 +9,7 @@ class Whoops::Event
   field :message, :type => String
   field :event_time, :type => DateTime
 
-  index([[:event_group_id,Mongo::ASCENDING],[:event_time, Mongo::DESCENDING]])
+  #index([[:event_group_id,Mongo::ASCENDING],[:event_time, Mongo::DESCENDING]])
 
   validates_presence_of :message  
   
